@@ -13638,3 +13638,88 @@ Stack Trace:
 #16 {main}
 
 
+2016-02-02 00:23:43 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/admin/style/template-base-level-2.css" could not be found.
+Exception Attributes: array (
+  'url' => '/admin/style/template-base-level-2.css',
+)
+Request URL: /admin/style/template-base-level-2.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Router.php(341): Cake\Routing\RouteCollection->parse('/admin/style/te...')
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Filter\RoutingFilter.php(53): Cake\Routing\Router::parse('admin/style/tem...')
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php(385): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php(351): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManagerTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2016-02-02 00:23:58 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/admin/formatStyles.css" could not be found.
+Exception Attributes: array (
+  'url' => '/admin/formatStyles.css',
+)
+Request URL: /admin/formatStyles.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Router.php(341): Cake\Routing\RouteCollection->parse('/admin/formatSt...')
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Filter\RoutingFilter.php(53): Cake\Routing\Router::parse('admin/formatSty...')
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php(385): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php(351): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManagerTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2016-02-02 00:23:59 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/admin/gen_validatorv31.js" could not be found.
+Exception Attributes: array (
+  'url' => '/admin/gen_validatorv31.js',
+)
+Request URL: /admin/gen_validatorv31.js
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Router.php(341): Cake\Routing\RouteCollection->parse('/admin/gen_vali...')
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Filter\RoutingFilter.php(53): Cake\Routing\Router::parse('admin/gen_valid...')
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php(385): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php(351): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManagerTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2016-02-02 00:23:59 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/admin/user.css" could not be found.
+Exception Attributes: array (
+  'url' => '/admin/user.css',
+)
+Request URL: /admin/user.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Router.php(341): Cake\Routing\RouteCollection->parse('/admin/user.css')
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Filter\RoutingFilter.php(53): Cake\Routing\Router::parse('admin/user.css')
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php(385): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php(351): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManagerTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2016-02-02 00:24:00 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/admin/style/template-subjectnav.css" could not be found.
+Exception Attributes: array (
+  'url' => '/admin/style/template-subjectnav.css',
+)
+Request URL: /admin/style/template-subjectnav.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Router.php(341): Cake\Routing\RouteCollection->parse('/admin/style/te...')
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Filter\RoutingFilter.php(53): Cake\Routing\Router::parse('admin/style/tem...')
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php(385): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php(351): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Event\EventManagerTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+

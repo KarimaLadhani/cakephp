@@ -5119,3 +5119,5 @@ Cake\Error\BaseErrorHandler::handleException() - CORE\src\Error\BaseErrorHandler
 
 
 
+2016-02-02 00:24:19 Debug: Username PASSED INTO QUERY ISkvishram
+2016-02-02 00:24:20 Debug: Admin Username retrieved from database is kvishram
