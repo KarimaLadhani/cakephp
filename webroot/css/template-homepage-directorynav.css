@@ -1,0 +1,91 @@
+.directoryNav {
+	float:left;
+	width: 175px;
+	margin:35px 19px 0 0;
+	}
+	
+.directoryNav h4 {
+	display:block;
+	}
+	
+.directoryNav h4, .directoryNav p, .directoryNav .toggleSites, .directoryNav .catSites, .directoryNav .catDescr, .directoryNav li ul li ul {
+	display:none;
+	}
+	
+.directoryNav ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width: 167px;
+	}
+	
+.directoryNav li {
+	float:left;
+	width:175px;
+	margin:0;
+	padding:0;
+	font-family:Georgia,serif;
+	font-weight:normal;
+	font-size:10px;
+	line-height:17px;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	border-bottom:1px dotted #ccc;
+	}
+	
+.directoryNav li.on a {
+	color:#93191B;
+	}
+	
+.directoryNav li a {
+	display:block;
+	padding:7px 0;
+	color:#666;
+	text-decoration:none;
+	}
+	
+.directoryNav li a:hover {
+	color:#93191B;
+	text-decoration:underline;
+	}
+	
+.directoryNav li.parent {
+	display:none;
+	}
+	
+.directoryNav li.parent a {
+	color:#93191B;
+	}
+	
+.directoryNav li ul {
+	display:none;
+	}
+	
+.directoryNav li.on ul {
+	display:none;
+	}
+	
+.directoryNav li ul {
+	margin:0;
+	padding:0;
+	}
+	
+.directoryNav li.on ul li {
+	display:block;
+	border:none;
+	font-family:Verdana,sans-serif;
+	font-weight:bold;
+	text-transform:none;
+	text-decoration:none;
+	}
+	
+.directoryNav li.on ul li a {
+	color:#333;
+	text-decoration:none;
+	border-bottom:none;
+	border-top:1px dotted #ccc;
+	}
+	
+.directoryNav li a:hover {
+	text-decoration:underline;
+	}

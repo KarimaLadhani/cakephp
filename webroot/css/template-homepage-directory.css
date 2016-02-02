@@ -1,0 +1,166 @@
+/* import style sheets used in Commonspot base template */
+@import "../style/template-homepage.css";
+@import "../style/template-html.css";
+@import "../style/template-homepage-directorynav.css";
+@import "../style/template-class.css";
+
+body {
+	background: url("../images/home-directory-bg.jpg") repeat-x;
+	}
+	
+#masthead {
+	height:88px;
+	}
+	
+#search {
+	top:38px;
+	}
+	
+#content {
+	padding-bottom:100px;;
+	}
+	
+#content h3 {
+	font-family:Georgia,serif;
+	font-size:30px;
+	line-height:30px;
+	color:#8E7A4A;
+	padding:0;
+	margin:15px 0 20px 0;
+	font-weight:bold;
+	}
+	
+#content .introduction {
+	margin:0;
+	padding:0;
+	float:left;
+	width:599px;
+	}
+	
+#content .introduction h3 {
+	font-family:Georgia,serif;
+	font-size:14px;
+	font-style:italic;
+	line-height:18px;
+	font-weight:normal;
+	color:#8E7A4A;
+	padding:20px 0 22px 0;
+	margin:0;
+	border-bottom:1px dotted #ccc;
+	}
+	
+#content #page {
+	float:left;
+	width:599px;
+	}
+	
+#content #primary {
+	float:left;
+	font-family:Verdana,sans-serif;
+	font-size:11px;
+	line-height:17px;
+	color:#333;
+	width:599px;
+	padding:0;
+	}
+	
+#content #CS_Element_content {
+	float:right;
+	font-family:Verdana,sans-serif;
+	font-weight:normal;
+	font-size:10px;
+	line-height:15px;
+	width:160px;
+	padding:0;
+	margin:0;
+	}
+
+	
+.sitemapSites {
+	float:left;
+	width:420px;
+	margin: 0 19px 50px 0;
+	}
+	
+.sitemapSites ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+.sitemapSites li {
+	clear:both;
+	margin:0;
+	padding: 5px 0 10px 110px;
+	border-bottom:1px dotted #ccc;
+	}
+	
+.sitemapSites li.listfirst {
+	border-top:none;
+	}
+	
+.sitemapSites li img {
+	margin-left:-110px;
+	margin-top:5px;
+	float:left;
+	}
+	
+.sitemapSites li ul {
+	margin:5px 25px;
+	padding:0;
+	list-style-image:url(../images/li-arrow.gif) !important;
+	}
+	
+.sitemapSites li ul li {
+	margin:0;
+	padding: 0;
+	border-bottom:none;
+	}
+	
+.sitemapSites h3 {
+	font-family:Georgia,serif;
+	font-size:16px !important;
+	line-height:20px !important;
+	font-weight:normal !important;
+	margin:0 !important;
+	padding:0 !important;
+	}
+	
+.sitemapSites h3 a {
+	font-weight:normal !important;
+	}
+	
+.sitemapSites h3 a, .sitemapSites h4 a {
+	text-decoration:none;
+	color:#93191B !important;
+	}
+	
+.sitemapSites h3 a:hover, .sitemapSites h4 a:hover {
+	text-decoration:underline;
+	}
+	
+.sitemapSites h4 {
+	font-family:Verdana,sans-serif;
+	font-size:11px;
+	line-height:17px;
+	font-weight:bold;
+	color:#93191B;
+	margin:0;
+	padding:0;
+	}
+	
+.sitemapSites .siteLink {
+	color: #A99A76;
+	font-weight:bold;
+	text-decoration:none;
+	white-space:nowrap;
+	}
+	
+.sitemapSites .siteLink:hover {
+	text-decoration:underline;
+	}
+	
+#content #secondary {
+	float:left;
+	}
+	

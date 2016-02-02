@@ -1,0 +1,11 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+function toggleWindow(layerRef) {
+	if ( typeof(layerRef) == 'string')
+		layerRef = document.getElementById(layerRef);
+	oldstyle = layerRef.style.display;
+	if (oldstyle == 'none' || oldstyle == '')
+		layerRef.style.display = 'block';
+	else {
+		layerRef.style.display = 'none';	
+	}
+}

@@ -1,0 +1,34 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+.blmainCol {
+	float:left;
+	width: 70%;
+}
+.blrightCol {
+	float:left;
+	width: 28%;
+}
+
+.blrightCol .feature {
+	width:170px !important;
+}
+
+.blrightCol .feature .top-middle {
+	width:160px !important;
+}
+.subtle {
+	color:#999;
+}
+#tagCloud {
+	text-align:center;
+	padding:9px;
+	margin:5px 0px;
+	line-height:12px;
+}
+
+/*.top-middle { width:177px !important }
+.content  { width:177px !important; }
+
+.featuredPost {
+	background-color:#FFF2C6;
+
+}*/

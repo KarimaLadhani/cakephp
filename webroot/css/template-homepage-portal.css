@@ -1,0 +1,195 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+/* import style sheets used in Commonspot homepage portal template */
+@import "../style/template-html.css";
+@import "../style/template-homepage-directorynav.css";
+@import "../style/template-class.css";
+@import "../style/template-homepage.css";
+
+body {
+	background: url("../images/home-portal-bg.jpg") repeat-x;
+	}
+	
+#masthead {
+	height:88px;
+	}
+	
+#search {
+	top:38px;
+	}
+	
+.portalNav .categoryBlock {
+	clear:both;
+	}
+
+.portalNav h4, .categoryBlock h4 {
+	margin:0;
+	padding:10px 0;
+	font-family:Georgia,serif;
+	font-weight:normal;
+	font-size:16px;
+	line-height:17px;
+	width:380px;
+	float:none;
+	}
+	
+.portalNav h4 a, .categoryBlock h4 a {
+	font-weight:normal !important;
+	color:#93191B !important;
+	text-decoration:none;
+	}
+
+
+.portalNav .pagelet ul, .childCat  {
+	list-style-type:none;
+	margin:0;
+	padding:5px 0 0 10px;
+	border-top:1px dotted #ccc;
+	border-left:1px dotted #ccc;
+	font-size:10px;
+	line-height:17px;
+	}
+	
+.portalNav .pagelet li.parent {
+	display:none;
+	}
+	
+.portalNav li {
+	margin:0;
+	padding:0;
+	}
+	
+.portalNav li a {
+	font-weight:normal !important;
+	color:#666 !important;
+	text-decoration:none;
+	}
+	
+.portalNav .pagelet li div {
+	padding:5px 0 0 0;
+	font-family:Verdana,sans-serif;
+	font-weight:normal;
+	color:#999;
+	}
+	
+.portalNav .pagelet li ul li {
+	margin:0;
+	padding:0;
+	}
+
+.portalNav .pagelet li ul li a {
+	color:#666 !important;
+	}
+	
+.portalNav .pagelet .columnOne, .portalNav .pagelet .columnTwo {
+	float:left;
+	width:195px;
+	background: url("../images/portal-sites-bg.jpg") no-repeat;
+	}
+	
+.portalNav .pagelet .columnOne {
+	margin-right:5px;
+	}
+	
+.portalNav .pagelet .columnTwo {
+	}
+	
+.portalNav .childCat ul {
+	list-style-type:none;
+	border:none;
+	margin:0;
+	padding:0;
+	}
+	
+.portalNav .toggler {
+	margin-top:15px;
+	}
+
+	
+#primary.large .portalNav .columnOne, #primary.large .portalNav .columnTwo {
+	width:295px;
+	}
+
+#content {
+	padding-bottom:120px;;
+	}
+	
+#content .introduction {
+	margin:0;
+	padding:0;
+	}
+	
+#content #primary.large .introduction {
+	float:none;
+	}
+	
+#content .introduction img {
+	margin-bottom:10px;
+	}
+	
+#content .introduction h3 {
+	font-family:Verdana,sans-serif;
+	font-size:11px;
+	line-height:17px;
+	font-weight:bold;
+	color:#8E7A4A;
+	padding:40px 0 22px 0;
+	margin:0;
+	border-bottom:1px dotted #ccc;
+	}
+	
+#content #page {
+	float:left;
+	width:599px;
+	}
+	
+#content #primary {
+	float:left;
+	font-family:Verdana,sans-serif;
+	font-size:11px;
+	line-height:17px;
+	width:420px;
+	padding:0;
+	}
+	
+#content #primary.large {
+	width:613px;
+	}
+	
+#content #primary h3 {
+	font-family:Georgia,serif;
+	font-size:30px;
+	line-height:30px;
+	color:#93191b;
+	padding:0;
+	margin:15px 0 20px 0;
+	font-weight:normal;
+	}
+	
+	
+#content #secondary {
+	float:left;
+	width:160px;
+	margin-left:19px;
+	}
+	
+/* Styles for rounded corner divs */
+
+#primary .feature {
+	width:420px;
+	}
+	
+#primary.large .feature {
+	width:613px;
+	}
+	
+#primary .feature .top-middle  {
+	width:410px;
+	}
+	
+#primary.large .feature .top-middle  {
+	width:603px;
+	}
+	
+#secondary .feature .top-middle  {
+	width:150px;
+	}

@@ -1,0 +1,172 @@
+@import "template-masthead.css";
+
+html, body {
+    height: 100%;
+}
+
+html>body .container {
+    height: auto;
+	}
+
+body {
+	padding:0;
+	margin:0;
+	}
+
+/* the container includes everything - we set the page width here. */
+	
+.container {
+	position:relative;
+	padding: 0;
+	margin:0;
+	min-height: 100%;
+	height: 100%;
+    voice-family: "\"}\"";
+    voice-family: inherit;
+    height: auto;
+	}
+	
+.container br {
+	height:auto;
+	}
+	
+	
+#content {
+	position:relative;
+	width:800px;
+	margin: 0 auto;
+	}
+	
+.breadcrumbNav {
+	float:left;
+	padding:22px 0 14px 0;
+	margin:0;
+	font-family:Verdana,sans-serif;
+	font-weight:normal;
+	font-size:9px;
+	line-height:9px;
+	color: #8E7A4A;
+	width:599px;
+	}
+	
+.breadcrumbNav li, .breadcrumbNav li.on ul {
+	display:none;
+	}
+	
+.breadcrumbNav li.scuHome, .breadcrumbNav li.parent, .breadcrumbNav li.on {
+	display: inline;
+	padding: 0;
+	}
+	
+.breadcrumbNav li.scuHome {
+	border:none;
+	padding: 0;
+	}
+	
+.breadcrumbNav li a {
+	font-weight:normal !important;
+	text-decoration:none;
+	color: #8E7A4A;
+	}
+	
+.breadcrumbNav li a:hover {
+	text-decoration:underline;
+	}
+	
+#primary {
+	font-family:Verdana,sans-serif;
+	font-weight:normal;
+	font-size:11px;
+	line-height:17px;
+	}
+	
+#primary a {
+	color: #8e7a4a;
+	font-weight:bold;
+	text-decoration:none;
+	}
+	
+#primary a:hover {
+	text-decoration:underline;
+	}
+	
+#primary a:visited {
+	color: #a99a76;
+	font-weight:bold;
+	text-decoration:none;
+	}
+	
+#secondary {
+	font-family:Verdana,sans-serif;
+	font-weight:normal;
+	font-size:10px;
+	line-height:15px;
+	}
+	
+.footer {
+	float:left;
+	font-size:9px;
+	border-top:1px dotted #ccc;
+	padding:10px 0 22px 0;
+	text-align:center;
+	}
+	
+.footer a {
+	color: #BE7A4A;
+	}
+
+#footer {
+	clear:both;
+	position:absolute;
+	bottom:0;
+	background: url("../images/global-footer-bg.png") repeat-x;
+	text-align:center;
+	font-family:Verdana,sans-serif;
+	font-weight:normal;
+	font-size:9px;
+	color: #B58787;
+	width:100%;
+	height:67px;
+	padding:15px 0 0 0;
+	margin:0;
+	}
+	
+#footer ul {
+	position:relative;
+	width:793px;
+	margin: 15px auto 0 auto;
+	padding:0;
+	display:inline;
+	}
+	
+#footer ul li {
+	display:inline;
+	padding:0 10px;
+	}
+	
+#footer ul li.listFirst {
+	border:none;
+	padding:0 10px 0 0;
+	}
+	
+#footer ul li a {
+	color: #B58787;
+	text-decoration:none;
+	}
+	
+#footer li a:hover {
+	text-decoration:underline;
+	color: #D2C599
+	}
+	
+#footer #est1851 {
+	display:block;
+	margin: 10px auto 0 auto;
+	border:none;
+	}
+	
+#footer address {
+	display:inline;
+	font-style:normal;
+	}
+

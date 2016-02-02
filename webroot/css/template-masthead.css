@@ -1,0 +1,145 @@
+/* the masthead includes audience navigation, the SCU log, tagline, site name, and search form */
+
+/* @import "template-ajax.css"; */
+
+#mastheadContainer {
+	position:relative;
+	margin:0;
+	padding: 0;
+	border-bottom:1px solid white;
+	}
+	
+#masthead {
+	position:relative;
+	height: 40px;
+	margin:0;
+	width:793px;
+	margin: 0 auto;
+	}
+	
+/* heading content is included for search engines and ada compliance, but are not displayed */
+#masthead h1, #masthead h2 {
+	display:none;
+	}
+	
+/* audience navigation menu */
+#audience {
+	position:absolute;
+	top:10px;
+	right:0;
+	margin:0;
+	padding:0;
+	font-family:Verdana,sans-serif;
+	font-weight:normal;
+	font-size:9px;
+	/* color: #B58787; */
+	color:#DAC2C2;
+	}
+	
+
+#audience li {
+	display: inline;
+	padding: 0 0 0 10px;
+	}
+	
+#audience li.listFirst {
+	border:none;
+	padding: 0;
+	}
+	
+#audience li a {
+	text-decoration:none;
+	color:#DAC2C2;
+	}
+	
+#audience li a:hover {
+	text-decoration:underline;
+	color: #D2C599
+	}
+	
+#audience li a.on {
+	color:#D2C599;
+	text-decoration:underline;
+	}
+	
+#logo {
+	position:absolute;
+	top:5px;
+	left:16px;
+	display: block;
+	margin:0;
+	padding:0;
+	}
+	
+#logo {
+	border:none;
+	}
+
+	
+#search {
+	position:absolute;
+	top: 19px;
+	right:0;
+	width:275px;
+	margin:0;
+	padding:0;
+	font-family:Verdana,sans-serif;
+	font-weight:normal;
+	font-size:9px;
+	text-align:left;
+	}
+	
+#search .searchSubmit {
+	font-weight:bold;
+	padding-left:5px;
+	background:none;
+	border:none;
+	color: #D2C599;
+	font-family:Georgia,serif;
+	text-transform:uppercase;
+	font-size:12px;
+	letter-spacing:1px;
+	margin-left:5px;
+	width:80px;
+	}
+	
+#search .searchSubmit:hover {
+	color: #fff;
+	}
+	
+#search .searchText {
+	border-top:1px solid #531313;
+	border-right:1px solid #AB5150;
+	border-bottom:1px solid #AB5150;
+	border-left:1px solid #531313;
+	font-size: 9px;
+	width:180px;
+	padding:2px;
+	background: #93191B;
+	color: #D2C599;
+	}
+	
+#search div {
+	margin: -2px 0 0 0;
+	text-align:left;
+	}
+	
+#search div {
+	color: #E0C3C3;
+	font-weight:normal;
+	font-size: 9px;
+	}
+	
+#search #v0:hover, #search #v1:hover, #search #v2:hover {
+	color: #B58787;
+	text-decoration:underline;
+	}
+	
+#search #v0, #search #v1, #search #v2 {
+	padding:0;
+	margin:5px 0 0 2px;
+	font-size: 9px;
+	color: #E0C3C3;
+	border:0px;
+	background:transparent;
+	}

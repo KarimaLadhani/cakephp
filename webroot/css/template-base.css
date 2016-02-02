@@ -1,0 +1,434 @@
+@import "template-masthead.css";
+
+html, body {
+    height: 100%;
+}
+
+html>body .container {
+    height: 30px;
+	}
+
+body {
+	background: url("../images/base-level-4-bg.jpg") repeat-x;
+	padding:0;
+	margin:0;
+	}
+	
+/* the container includes everything - we set the page width here. */
+	
+.container {
+	float:none;
+	position:relative;
+	padding: 0;
+	width:100%;
+	margin: 0;
+	min-height: 100%;
+	height: 100%;
+    voice-family: "\"}\"";
+    voice-family: inherit;
+    height: auto;
+	}
+	
+.breadcrumbNav {
+	width:100%;
+	padding:10px 0;
+	margin:0;
+	}
+	
+.breadcrumbNav ul {
+	padding:0;
+	margin:0;
+	font-family:Verdana,sans-serif;
+	font-weight:normal;
+	font-size:9px;
+	line-height:9px;
+	color: #8E7A4A;
+	}
+	
+.breadcrumbNav br {
+	display:none;
+	}
+	
+.breadcrumbNav li, .breadcrumbNav li.on ul {
+	display:none;
+	}
+	
+.breadcrumbNav li.scuHome, .breadcrumbNav li.parent, .breadcrumbNav li.on {
+	display: inline;
+	padding: 0;
+	}
+	
+.breadcrumbNav li.scuHome {
+	border:none;
+	padding: 0;
+	}
+	
+.breadcrumbNav a {
+	text-decoration:none;
+	color: #8E7A4A;
+	}
+	
+.breadcrumbNav a:hover {
+	text-decoration:underline;
+	}
+	
+
+/* the content block - container for primary, secondary, tertiary content */
+	
+#content {
+	float:none;
+	position:relative;
+	font-family:Verdana,sans-serif;
+	font-size:11px;
+	line-height:17px;
+	color:#333;
+	/*width:793px;*/
+	margin:0 auto;
+	padding-top:50px;
+	}
+	
+/* contains intro title/image, primary and secondary page content */
+/* temporary width/margin settings are in place for page-primary and secondary blocks to accomodate legacy
+	content display issues in IE6 */
+	
+#page {
+	float:left;
+	margin-bottom:50px;
+	width:599px;
+	}
+	
+#page .introduction {
+	float:left;
+	width:100%;
+	}
+	
+#page .introduction img {
+	margin:0 0 10px 0;
+	padding:0;
+	}
+	
+#page .introduction h3 {
+	font-family:Georgia,serif;
+	font-size:14px;
+	font-style:italic;
+	line-height:17px;
+	font-weight:normal;
+	color:#8E7A4A;
+	padding:10px 0 22px 0;
+	margin:0;
+	border-bottom:1px dotted #ccc;
+	}
+	
+#page.normal {
+	width:599px;
+	}
+	
+#page.large {
+	width:793px;
+	}
+	
+#page-primary {
+	float:left;
+	/* width:420px; */
+	width:421px;
+	margin-bottom:50px;
+	font-size:11px;
+	line-height:17px;
+	}
+	
+#page-primary.medium {
+	float:left;
+	width:599px
+	}
+	
+#page-primary.large {
+	width:793px;
+	}
+	
+#page-primary a {
+	color: #93191B;
+	/* font-weight:normal; */
+	text-decoration:none;
+	}
+	
+#page-primary p a, #page-primary h6 a {
+	border-bottom:1px dotted #93191B;
+	}
+	
+#page-primary p a:hover, #page-primary h6 a:hover {
+	border-bottom:1px solid #93191B;
+	}
+	
+#page-primary p a:visited {
+	/*color: #a99a76;
+	font-weight:bold;
+	text-decoration:none; */
+	}
+	
+
+/* this style disguises the dotted border below linked images */
+#page-primary #CS_Element_primary table a {
+	border-bottom:none;  
+	}
+	
+#page-primary h3 {
+	font-family:Georgia,serif;
+	font-size:26px;
+	line-height:30px;
+	color:#8E7A4A;
+	padding:0;
+	margin:5px 0 0 0;
+	font-weight:normal;
+	}
+	
+#page-primary h4 {
+	font-family:Georgia,serif;
+	font-size:18px;
+	line-height:22px;
+	color:#93191B;
+	padding:0;
+	margin:5px 0 0 0;
+	font-weight:normal;
+	}
+	
+#page-primary h5 {
+	font-family:Verdana,sans-serif;
+	font-size:12px;
+	line-height:16px;
+	padding:0;
+	margin:5px 0 0 0;
+	}
+	
+#page-primary h6 {
+	font-family:Verdana,sans-serif;
+	font-size:11px;
+	line-height:17px;
+	font-weight:bold;
+	}
+	
+#page-primary p {
+	padding: 5px 0 10px 0;
+	margin:1px 0 0 0;
+	}
+	
+#page-primary ul a, #page-primary ol a {
+	text-decoration:none;
+	border-bottom:1px dotted transparent;
+	}
+	
+#page-primary ul a:hover, #page-primary ol a:hover {
+	text-decoration:none;
+	border-bottom:1px dotted #93191B;
+	}
+	
+#page-primary #idLayout2 td, th {
+	vertical-align:top;
+	padding:5px 0;
+	}
+	
+#page-primary .linklist {
+	margin:10px 25px;
+	padding:0;
+	list-style:none;
+	list-style-image:url(../images/li-arrow.gif);
+	}
+	
+#page-primary ol, #page-primary ul {
+	margin:10px 25px;
+	padding:0;
+	}
+	
+#secondary {
+	float:left;
+	/* width:160px; */
+	width:162px !important;
+	font-size:10px;
+	line-height:15px;
+	/* margin:0 0 0 19px; */
+	margin:0 0 0 16px !important;
+	padding:0 !important;
+	background:none;
+	}
+	
+#secondary h3 {
+	font-family:Georgia,serif;
+	font-size:18px;
+	line-height:22px;
+	color:#8E7A4A;
+	padding:0;
+	margin:5px 0;
+	font-weight:normal;
+	}
+	
+/* commonspot adds a link (a) tag with this id
+	this setting will take away the extra right margin that applied in IE6 */
+a#secondary {
+	float:none;
+	margin:0;
+	padding:0;
+	}
+	
+#secondary .feature .content p, #secondary .feature .content h5, #secondary .feature .content div {
+	font-size:10px;
+	line-height:15px;
+	padding-top:0;
+	margin:0 0 5px 0;
+	}
+	
+#secondary .feature .content h6 {
+	margin:0;
+	padding:3px 0;
+	}
+	
+	
+#secondary .feature img {
+	/* width:160px; */
+	margin:0;
+	padding:0;
+	}
+	
+#secondary a {
+	color: #8e7a4a;
+	text-decoration:none;
+	}
+
+#secondary a:visited {
+	color: #A99A76;
+	text-decoration: none;
+}
+
+#secondary a:hover {
+	text-decoration: underline;
+}
+
+#secondary ul {
+	margin-left:10px;
+	}
+	
+	
+#page #page-tools {
+	float:left;
+	width:100%;
+	margin:10px 0;
+	padding-top:10px;
+	border-top:1px dotted #ccc;
+	}
+	
+#page #page-tools .tools {
+	width:160px;
+	float:left;
+	margin-right:20px;
+	}
+	
+#page #page-tools img {
+	vertical-align:middle;
+	border:none;
+	}
+	
+#page #page-tools a, #page-tools span {
+	color:#A99A76;
+	text-decoration:none;
+	font-weight:bold;
+	}
+	
+#page #page-tools a:hover {
+	text-decoration:underline;
+	}
+	
+#page #page-tools #webview {
+	display:none;
+	}
+	
+/* footer styles */
+	
+.footer {
+	font-size:9px;
+	float:none;
+	clear:both;
+	border-top:1px dotted #ccc;
+	padding:10px 0 22px 0;
+	text-align:center;
+	}
+	
+.footer a {
+	color: #BE7A4A;
+	}
+	
+.footer ul {
+	display:none;
+	}
+
+	
+#page-footer {
+	clear:both;
+	position:absolute;
+	bottom:0;
+	background: url("../images/global-footer-bg.png") repeat-x;
+	text-align:center;
+	font-family:Verdana,sans-serif;
+	font-weight:normal;
+	font-size:9px;
+	color: #B58787;
+	width:100%;
+	height:67px;
+	padding:15px 0 0 0;
+	margin:0;
+	}
+	
+#page-footer ul {
+	position:relative;
+	width:793px;
+	margin: 15px auto 0 auto;
+	padding:0;
+	display:inline;
+	}
+	
+#page-footer ul li {
+	display:inline;
+	padding:0 10px;
+	}
+	
+#page-footer ul li.listFirst {
+	border:none;
+	padding:0 10px 0 0;
+	}
+	
+#page-footer ul li a {
+	color: #B58787;
+	text-decoration:none;
+	}
+	
+#page-footer li a:hover {
+	text-decoration:underline;
+	color: #D2C599
+	}
+	
+#page-footer #est1851 {
+	display:block;
+	margin: 10px auto 0 auto;
+	border:none;
+	}
+	
+#page-footer address {
+	display:inline;
+	font-style:normal;
+	}
+
+#webview {
+	display:none;
+	}
+	 
+	 
+	 
+/* commonspot style corrections */
+.CS_Layout_SpacingHeight {
+	line-height:0 !important;
+	}
+	
+/* @media print {
+.container {
+		width:100%;
+		margin:0;
+		padding:0;
+	}
+} */
